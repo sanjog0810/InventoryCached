@@ -1,0 +1,9 @@
+### GET request to example server
+PATCH http://localhost:8081/api/products/06d55abd-44f3-4631-bb68-a1e90691f6bb/decrease-stock
+Content-Type: application/json
+
+{
+   "quantity": 5
+}
+
+###

@@ -1,0 +1,12 @@
+### GET request to example server
+POST http://localhost:8081/api/products
+Content-Type: application/json
+
+{
+  "name": "Apple",
+  "description": "Apple a day keeps the doctor away",
+  "stockQuantity": 10,
+  "lowStockThreshold": 5
+}
+
+###
