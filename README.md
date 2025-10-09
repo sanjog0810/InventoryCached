@@ -38,12 +38,4 @@ Concurrency: Spring Retry & JPA Optimistic Locking
 🔌 API Endpoints Overview
 The API provides a full suite of endpoints to manage products:
 
-Method	Endpoint	Description
-POST	/api/products	Create a new product.
-GET	/api/products	Get all products (with pagination).
-GET	/api/products/{id}	Get a single product by its ID.
-GET	/api/products/low-stock	Get a list of products below their stock threshold.
-PUT	/api/products/{id}	Update an existing product.
-PATCH	/api/products/{id}/increase-stock	Increase the stock for a product.
-PATCH	/api/products/{id}/decrease-stock	Decrease the stock for a product.
-DELETE	/api/products/{id}	Delete a product.
+https://app.swaggerhub.com/apis/naa-2d9/inventory1/v1
